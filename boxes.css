@@ -1,0 +1,68 @@
+body {
+  background-color: purple;
+}
+/* header,
+div {
+  outline: 1px solid black;
+} */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgreen;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  outline: 1px solid black;
+}
+
+.box {
+  background-color: red;
+  display: flex;
+  justify-content: flex-start;
+  outline: 1px solid black;
+}
+
+.link {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid black;
+}
+
+.side {
+  width: 130px;
+  height: 45px;
+  display: flex;
+  align-content: flex-start;
+  background-color: orange;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid black;
+}
+
+.big.box {
+  width: 200px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin: 50px auto;
+  gap: 100px;
+  max-width: 500px;
+  justify-content: center;
+}
+
+.container1 {
+  display: flex;
+  justify-content: flex-start;
+}
